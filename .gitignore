@@ -1,0 +1,12 @@
+.env
+*/.env
+
+lambda-deployment.zip
+lambda-package/
+
+__pycache__/
+memory/
+
+# personal data used by the twin (kept local, copied into the Lambda zip by deploy.py)
+backend/data/
+backend/me.txt
